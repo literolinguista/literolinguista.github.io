@@ -1,166 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
-    <a rel="me" href="https://bolha.us/@jackson"></a>
-    <title>literolinguista</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="profile">
-        <img
-          src="./assets/avatarJacksonEscuro.png"
-          alt="Imagem do tipo fotografia colorida de Jackson, homem branco e barburdo sorrindo e piscando."
-        />
-        <p>@literolinguista</p>
-	<p>... leio e escrevo {códigos}, poesia, (receitas) e prosa...</p>
-      </div>
 
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <a rel="me" href="https://bolha.us/@jackson"></a>
+  <title>literolinguista</title>
+</head>
 
-      <ul>
-        <li>
-          <a href="https://literolinguista.gitlab.io/" title="Site pessoal" target="_blank"
-            >Site pessoal</a
-          >
-        </li>
-
-        <li>
-          <a href="https://jackson-ufpe.github.io/" title="Notas de aulas..." target="_blank"
-            >Notas de aulas...</a
-          >
-        </li>
-        
-        <li>
-          <a href="#" title="Contos diversos... publicação na Amazon (em breve)"
-            >Contos diversos... publicação na Amazon (em breve)</a
-          >
-        </li>
-
-        <li>
-          <a
-            href="https://www.recantodasletras.com.br/autores/literolinguista"
-            title="Recanto das letras" target="_blank"
-            >Recanto das letras</a
-          >
-        </li>
-
-        <li>
-          <a
-            href="https://literolinguista.gitlab.io/atividades/escrita/haiku-paula-antunes-sergio-borges-org-22-04-2021.pdf"
-            title="Haikais, publicação coletiva" target="_blank"
-            >Haikais, publicação coletiva</a
-          >
-        </li>
-
-        <li>
-          <a href="https://www.wattpad.com/user/literolinguista" title="Wattpad" target="_blank"
-            >Wattpad</a
-          >
-        </li>
-
-        <li>
-          <a href="https://tiktok.com/@literolinguista" title="Booktok" target="_blank"
-            >BookTok</a
-          >
-        </li>
-
-        <li>
-          <a href="https://meiotexto.wordpress.com/" title="Meiotexto (antigo blog)" target="_blank"
-            >Meiotexto (antigo blog)</a
-          >
-        </li>
-
-	<li>
-          <a href="https://bolha.blog/jackson/" title="Jackson na bolha.blog" target="_blank"
-            >Jackson na bolha.blog</a
-          >
-        </li>
-
-        <li>
-          <a href="https://odysee.com/@jacksondejesus:1" title="Vídeos no Odysse" target="_blank"
-            >Vídeos no Odysse</a
-          >
-        </li>
-
-	<li>
-          <a href="https://bolha.tube/a/jackson/video-channels" title="PeerTube" target="_blank"
-            >PeerTube</a
-          >
-        </li>
-
-	<li>
-          <a href="https://dev.to/literolinguista" title="Devto" target="_blank"
-            >Devto</a
-          >
-        </li>
-
-	<li>
-          <a href="https://hashnode.com/@literolinguista" title="Hashnode" target="_blank"
-            >Hashnode</a
-          >
-        </li>
-
-      </ul>
-      <div id="social-links">
-
-        <a href="https://bolha.us/@jackson" title="Mastodon" target="_blank">
-          <ion-icon name="logo-mastodon"></ion-icon>
-        </a>
-
-        <a href="https://bsky.app/profile/jackson.pessoas.dev" title="Bluesky" target="_blank">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a>
-
-        <a href="https://gitlab.com/literolinguista" title="Gitlab" target="_blank">
-          <ion-icon name="logo-gitlab"></ion-icon>
-        </a>
-
-	<a href="https://github.com/literolinguista" title="Github" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
-
-        <a href="https://www.instagram.com/literolinguista/" title="Instagram" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-
-        <a href="https://www.tiktok.com/@literolinguista" title="Tiktok" target="_blank">
-          <ion-icon name="logo-tiktok"></ion-icon>
-        </a>
-
-        <a href="https://www.youtube.com/@literolinguista" title="YouTube" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-
-        <a href="https://www.linkedin.com/in/literolinguista/" title="Lindedin" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
-      </div>
-
-      <footer>
-        Remixado com ♥ a partir de curso da
-        <a href="https://www.rocketseat.com.br/discover" target="_blank"
-          >Rocketseat</a
-        >
-      </footer>
+<body>
+  <div id="container">
+    <div id="profile">
+      <img src="./assets/avatarJacksonEscuro.png"
+        alt="Imagem do tipo fotografia colorida de Jackson, homem branco e barburdo sorrindo e piscando." />
+      <p>@literolinguista</p>
+      <p>... leio e escrevo {códigos}, poesia, (receitas) e prosa...</p>
     </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
 
-    <script src="./script.js"></script>
-  </body>
+    <ul>
+      <li>
+        <a href="https://literolinguista.gitlab.io/" title="Site pessoal" target="_blank">Site pessoal</a>
+      </li>
+
+
+      <li>
+        <a href="https://www.amazon.com.br/dp/B0DJWWKZXP" title="Contos revistos... (Amazon)" target="_blank">Contos revistos (retalhos de escrita)... (Amazon)</a>
+      </li>
+
+      <li>
+        <a href="https://alinevalek.com.br/valekers/#/livros" title="Cantinho Valeker" target="_blank">Cantinho Valeker</a>
+      </li>
+
+      <li>
+        <a href="https://www.recantodasletras.com.br/autores/literolinguista" title="Recanto das letras"
+          target="_blank">Recanto das letras</a>
+      </li>
+
+      <li>
+        <a href="https://literolinguista.gitlab.io/atividades/escrita/haiku-paula-antunes-sergio-borges-org-22-04-2021.pdf"
+          title="Haikais, publicação coletiva" target="_blank">Haikais, publicação coletiva</a>
+      </li>
+
+      <li>
+        <a href="https://open.spotify.com/intl-pt/track/28af92hopzwofjPgSwC6KW?si=a1814c8b21f74698"
+          title="Haikais (composição derivada, Spotify)" target="_blank">Haikais (composição derivada, Spotify)</a>
+      </li>
+
+      <li>
+        <a href="https://www.wattpad.com/user/literolinguista" title="Wattpad" target="_blank">Wattpad</a>
+      </li>
+
+      <li>
+        <a href="https://tiktok.com/@literolinguista" title="Booktok" target="_blank">BookTok</a>
+      </li>
+
+      <li>
+        <a href="https://meiotexto.wordpress.com/" title="Meiotexto (antigo blog)" target="_blank">Meiotexto (antigo
+          blog)</a>
+      </li>
+
+      <li>
+        <a href="https://bolha.blog/jackson/" title="Jackson na bolha.blog" target="_blank">Jackson na bolha.blog</a>
+      </li>
+
+      <li>
+        <a href="https://jackson-ufpe.github.io/" title="Notas de aulas..." target="_blank">Notas de aulas (estudos
+          pessoais)...</a>
+      </li>
+
+      <li>
+        <a href="https://odysee.com/@jacksondejesus:1" title="Vídeos no Odysse" target="_blank">Vídeos no Odysse</a>
+      </li>
+
+      <li>
+        <a href="https://bolha.tube/a/jackson/video-channels" title="PeerTube" target="_blank">PeerTube</a>
+      </li>
+
+      <li>
+        <a href="https://dev.to/literolinguista" title="Devto" target="_blank">Devto</a>
+      </li>
+
+      <li>
+        <a href="https://hashnode.com/@literolinguista" title="Hashnode" target="_blank">Hashnode</a>
+      </li>
+
+    </ul>
+    <div id="social-links">
+
+      <a href="https://bolha.us/@jackson" title="Mastodon" target="_blank">
+        <ion-icon name="logo-mastodon"></ion-icon>
+      </a>
+
+      <a href="https://bsky.app/profile/jackson.pessoas.dev" title="Bluesky" target="_blank">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+
+      <a href="https://gitlab.com/literolinguista" title="Gitlab" target="_blank">
+        <ion-icon name="logo-gitlab"></ion-icon>
+      </a>
+
+      <a href="https://github.com/literolinguista" title="Github" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+
+      <a href="https://www.instagram.com/literolinguista/" title="Instagram" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+
+      <a href="https://www.tiktok.com/@literolinguista" title="Tiktok" target="_blank">
+        <ion-icon name="logo-tiktok"></ion-icon>
+      </a>
+
+      <a href="https://www.youtube.com/@literolinguista" title="YouTube" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+
+      <a href="https://www.linkedin.com/in/literolinguista/" title="Lindedin" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </div>
+
+    <footer>
+      Remixado com ♥ a partir de curso da
+      <a href="https://www.rocketseat.com.br/discover" target="_blank">Rocketseat</a>
+    </footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
